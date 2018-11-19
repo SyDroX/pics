@@ -26,7 +26,7 @@ class App extends React.Component {
             return <ImageList images={this.state.images}/>
         }
 
-        return <Loader message="Please accept location request."/>;
+        return <Loader />;
     }
 
     render() {
